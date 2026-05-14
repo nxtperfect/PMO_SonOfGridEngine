@@ -5,7 +5,7 @@ pkgs.mkShell {
     zlib
     (python3.withPackages (p:
       with p; [
-        numpy
+        mpi
       ]))
     uv
   ];
